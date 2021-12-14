@@ -1,0 +1,20 @@
+div.accordion-content:not(.active) {
+  display: none;
+}
+
+div.accordion-button {
+  display: inline-block;
+  border: 1px solid #333;
+  cursor: pointer;
+  padding: 10px;
+}
+
+div.accordion-button::after {
+  content: "▼";
+  margin-left: 8px;
+}
+
+div.accordion-button.active::after {
+  content: "▲";
+  margin-left: 8px;
+}

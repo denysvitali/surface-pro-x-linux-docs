@@ -1,0 +1,261 @@
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x51df805e]
+[    0.000000] Linux version 5.15.0-rc5-next-20211015-08491-g170a630e4812-dirty (dvitali@denvit-ws1) (aarch64-linux-gnu-gcc (GCC) 11.2.0, GNU ld (GNU Binutils) 2.37) #34 SMP Tue Dec 14 02:13:21 CET 2021
+[    0.000000] Machine model: Surface Pro X (SQ2)
+[    0.000000] efi: EFI v2.70 by Qualcomm Technologies, Inc.
+[    0.000000] efi: ACPI 2.0=0xffffe000 TPMFinalLog=0xfff63000 MEMATTR=0xfab6d018 ESRT=0xfa5d9418 SMBIOS=0xfff5c000 TPMEventLog=0xf8081018 RNG=0xfeb2bd98 MEMRESERVE=0xf807dd98 
+[    0.000000] efi: seeding entropy pool
+[    0.000000] esrt: Reserving ESRT space from 0x00000000fa5d9418 to 0x00000000fa5d9518.
+[    0.000000] NUMA: No NUMA configuration found
+[    0.000000] NUMA: Faking a node at [mem 0x0000000080000000-0x0000000df75fffff]
+[    0.000000] NUMA: NODE_DATA [mem 0xdf568ec00-0xdf5690fff]
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000080000000-0x00000000ffffffff]
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   [mem 0x0000000100000000-0x0000000df75fffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000080000000-0x00000000805fffff]
+[    0.000000]   node   0: [mem 0x0000000080600000-0x00000000829fffff]
+[    0.000000]   node   0: [mem 0x0000000083722000-0x00000000854fffff]
+[    0.000000]   node   0: [mem 0x0000000085500000-0x00000000856fffff]
+[    0.000000]   node   0: [mem 0x0000000085d00000-0x0000000085efffff]
+[    0.000000]   node   0: [mem 0x0000000085f20000-0x0000000085f4ffff]
+[    0.000000]   node   0: [mem 0x0000000085f50000-0x0000000085ffffff]
+[    0.000000]   node   0: [mem 0x0000000086000000-0x00000000861fffff]
+[    0.000000]   node   0: [mem 0x000000008b700000-0x000000009aafffff]
+[    0.000000]   node   0: [mem 0x000000009ab00000-0x000000009dff7fff]
+[    0.000000]   node   0: [mem 0x000000009dff8000-0x000000009dffffff]
+[    0.000000]   node   0: [mem 0x000000009e000000-0x000000009e3fffff]
+[    0.000000]   node   0: [mem 0x000000009e400000-0x000000009f7fffff]
+[    0.000000]   node   0: [mem 0x000000009f800000-0x000000009ff8ffff]
+[    0.000000]   node   0: [mem 0x000000009ff90000-0x000000009ff91fff]
+[    0.000000]   node   0: [mem 0x000000009ffb0000-0x000000009ffcffff]
+[    0.000000]   node   0: [mem 0x000000009ffd0000-0x000000009fffffff]
+[    0.000000]   node   0: [mem 0x00000000a0000000-0x00000000fea51fff]
+[    0.000000]   node   0: [mem 0x00000000fea52000-0x00000000fff6afff]
+[    0.000000]   node   0: [mem 0x00000000fff6b000-0x000000027fffffff]
+[    0.000000]   node   0: [mem 0x0000000c00000000-0x0000000df75fffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000080000000-0x0000000df75fffff]
+[    0.000000] On node 0, zone DMA: 3362 pages in unavailable ranges
+[    0.000000] On node 0, zone DMA: 1536 pages in unavailable ranges
+[    0.000000] On node 0, zone DMA: 32 pages in unavailable ranges
+[    0.000000] On node 0, zone DMA: 21760 pages in unavailable ranges
+[    0.000000] On node 0, zone DMA: 30 pages in unavailable ranges
+[    0.000000] On node 0, zone Normal: 2560 pages in unavailable ranges
+[    0.000000] cma: Reserved 32 MiB at 0x00000000fc800000
+[    0.000000] psci: probing for conduit method from DT.
+[    0.000000] psci: PSCIv1.1 detected in firmware.
+[    0.000000] psci: Using standard PSCI v0.2 function IDs
+[    0.000000] psci: MIGRATE_INFO_TYPE not supported.
+[    0.000000] psci: SMC Calling Convention v1.1
+[    0.000000] psci: OSI mode supported.
+[    0.000000] percpu: Embedded 28 pages/cpu s74392 r8192 d32104 u114688
+[    0.000000] Detected VIPT I-cache on CPU0
+[    0.000000] CPU features: detected: GIC system register CPU interface
+[    0.000000] CPU features: kernel page table isolation forced ON by KASLR
+[    0.000000] CPU features: detected: Kernel page table isolation (KPTI)
+[    0.000000] CPU features: detected: ARM errata 1165522, 1319367, or 1530923
+[    0.000000] Fallback order for Node 0: 0 
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 4067272
+[    0.000000] Policy zone: Normal
+[    0.000000] Kernel command line: BOOT_IMAGE=/boot/kernel/Image.gz efi=novamap earlyprintk=ttyUSB0,keep console=ttyUSB0,115200
+[    0.000000] Unknown kernel command line parameters "BOOT_IMAGE=/boot/kernel/Image.gz earlyprintk=ttyUSB0,keep", will be passed to user space.
+[    0.000000] Dentry cache hash table entri[    0.637570] ---[ end trace e05856907c0e8969 ]---
+[    0.638195] sdhci: Secure Digital Host Controller Interface driver
+[    0.638199] sdhci: Copyright(c) Pierre Ossman
+[    0.638449] SPI driver mmc_spi has no spi_device_id for mmc-spi-slot
+[    0.63[    2.691632] usb 2-1.2: new SuperSpeed USB device number 3 using xhci-hcd
+[    2.899771] usb 1-1.1.2: new high-speed USB device number 5 using xhci-hcd
+[    3.339612] usb 1-1.4: new high-speed USB device number 6 using xhci-hcd
+[    3.462061] usb-storage 1-1.4:1.0: USB Mass Storage device detected
+[    3.463710] scsi host0: usb-storage 1-1.4:1.0
+[    3.563859] usb 2-1.2: reset SuperSpeed USB device number 3 using xhci-hcd
+[    3.623544] r8152 2-1.2:1.0: load rtl8153a-3 v2 02/07/20 successfully
+[    3.652158] r8152 2-1.2:1.0 eth0: v1.12.11
+[    4.483022] scsi 0:0:0:0: Direct-Access              Patriot Memory   PMAP PQ: 0 ANSI: 6
+[    4.485771] sd 0:0:0:0: [sda] 15267823 512-byte logical blocks: (7.82 GB/7.28 GiB)
+[    4.486086] sd 0:0:0:0: [sda] Write Protect is off
+[    4.486353] sd 0:0:0:0: [sda] No Caching mode page found
+[    4.486373] sd 0:0:0:0: [sda] Assuming drive cache: write through
+[   22.655556] rcu: INFO: rcu_sched detected stalls on CPUs/tasks:
+[   22.655581] rcu: 	4-...0: (1 GPs behind) idle=99f/1/0x4000000000000000 softirq=160/163 fqs=2618 
+[   22.655594] 	(detected by 1, t=5252 jiffies, g=-1091, q=299)
+[   22.655601] Task dump for CPU 4:
+[   22.655605] task:swapper/0       state:R  running task     stack:    0 pid:    1 ppid:     0 flags:0x0000000a
+[   22.655617] Call trace:
+[   22.655621]  __switch_to+0x13c/0x194
+[   22.655634]  ida_alloc_range+0x37c/0x440
+[   22.655643]  proc_register+0x48/0x244
+[   22.655651]  _regmap_write+0x6c/0x174
+[   22.655661]  _regmap_update_bits+0xfc/0x110
+[   22.655668]  regmap_update_bits_base+0x70/0xa4
+[   22.655675]  clk_disable_regmap+0x44/0x5c
+[   22.655685]  clk_branch2_disable+0x24/0x4c
+[   22.655691]  clk_disable_unused_subtree+0x118/0x1d8
+[   22.655701]  clk_disable_unused+0x64/0xec
+[   22.655707]  do_one_initcall+0x50/0x280
+[   22.655713]  kernel_init_freeable+0x2a4/0x348
+[   22.655721]  kernel_init+0x30/0x13c
+[   22.655730]  ret_from_fork+0x10/0x20
+[   25.571570] rcu: INFO: rcu_sched detected expedited stalls on CPUs/tasks: { 4-... } 5272 jiffies s: 45 root: 0x10/.
+[   25.571601] rcu: blocking rcu_node structures (internal RCU debug):
+[   25.571608] Task dump for CPU 4:
+[   25.571613] task:swapper/0       state:R  running task     stack:    0 pid:    1 ppid:     0 flags:0x0000000a
+[   25.571623] Call trace:
+[   25.571626]  __switch_to+0x13c/0x194
+[   25.571635]  ida_alloc_range+0x37c/0x440
+[   25.571642]  proc_register+0x48/0x244
+[   25.571648]  _regmap_write+0x6c/0x174
+[   25.571656]  _regmap_update_bits+0xfc/0x110
+[   25.571663]  regmap_update_bits_base+0x70/0xa4
+[   25.571670]  clk_disable_regmap+0x44/0x5c
+[   25.571677]  clk_branch2_disable+0x24/0x4c
+[   25.571684]  clk_disable_unused_subtree+0x118/0x1d8
+[   25.571691]  clk_disable_unused+0x64/0xec
+[   25.571697]  do_one_initcall+0x50/0x280
+[   25.571703]  kernel_init_freeable+0x2a4/0x348
+[   25.571710]  kernel_init+0x30/0x13c
+[   25.571716]  ret_from_fork+0x10/0x20
+[   31.711605] BUG: workqueue lockup - pool cpus=4 node=0 flags=0x0 nice=0 stuck for 30s!
+[   31.711712] Showing busy workqueues and worker pools:
+[   31.711764] workqueue events: flags=0x0
+[   31.711808]   pwq 8: cpus=4 node=0 flags=0x0 nice=0 active=1/256 refcnt=2
+[   31.711825]     pending: pwq_unbound_release_workfn
+[   31.711895] workqueue events_unbound: flags=0x2
+[   31.711979]   pwq 16: cpus=0-7 flags=0x4 nice=0 active=3/512 refcnt=5
+[   31.711987]     in-flight: 152:async_run_entry_fn, 207:deferred_probe_work_func deferred_probe_work_func
+[   31.712032] workqueue rcu_gp: flags=0x8
+[   31.712127]   pwq 4: cpus=2 node=0 flags=0x0 nice=0 active=1/256 refcnt=2
+[   31.712136]     in-flight: 53:wait_rcu_exp_gp
+[   31.712207] workqueue pm: flags=0x4
+[   31.712297]   pwq 8: cpus=4 node=0 flags=0x0 nice=0 active=34/256 refcnt=35
+[   31.712306]     pending: genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn
+[   31.712675] pool 4: cpus=2 node=0 flags=0x0 nice=0 hung=25s workers=3 idle: 217 23
+[   31.712727] pool 16: cpus=0-7 flags=0x4 nice=0 hung=0s workers=10 idle: 81 219 221 216 76 7 211 75
+[   62.431591] BUG: workqueue lockup - pool cpus=4 node=0 flags=0x0 nice=0 stuck for 60s!
+[   62.431676] Showing busy workqueues and worker pools:
+[   62.431723] workqueue events: flags=0x0
+[   62.431780]   pwq 8: cpus=4 node=0 flags=0x0 nice=0 active=1/256 refcnt=2
+[   62.431793]     pending: pwq_unbound_release_workfn
+[   62.431837] workqueue events_unbound: flags=0x2
+[   62.431920]   pwq 16: cpus=0-7 flags=0x4 nice=0 active=3/512 refcnt=5
+[   62.431928]     in-flight: 152:async_run_entry_fn, 207:deferred_probe_work_func deferred_probe_work_func
+[   62.431958] workqueue rcu_gp: flags=0x8
+[   62.432048]   pwq 4: cpus=2 node=0 flags=0x0 nice=0 active=1/256 refcnt=2
+[   62.432057]     in-flight: 53:wait_rcu_exp_gp
+[   62.432091] workqueue pm: flags=0x4
+[   62.432173]   pwq 8: cpus=4 node=0 flags=0x0 nice=0 active=34/256 refcnt=35
+[   62.432183]     pending: genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn
+[   62.432399] pool 4: cpus=2 node=0 flags=0x0 nice=0 hung=56s workers=3 idle: 217 23
+[   62.432448] pool 16: cpus=0-7 flags=0x4 nice=0 hung=0s workers=10 idle: 211 219 7 221 76 81 216 75
+[   65.527701] random: crng init done
+[   85.675558] rcu: INFO: rcu_sched detected stalls on CPUs/tasks:
+[   85.675580] rcu: 	4-...0: (1 GPs behind) idle=99f/1/0x4000000000000000 softirq=160/163 fqs=8684 
+[   85.675591] 	(detected by 0, t=21007 jiffies, g=-1091, q=299)
+[   85.675598] Task dump for CPU 4:
+[   85.675602] task:swapper/0       state:R  running task     stack:    0 pid:    1 ppid:     0 flags:0x0000000a
+[   85.675612] Call trace:
+[   85.675616]  __switch_to+0x13c/0x194
+[   85.675624]  ida_alloc_range+0x37c/0x440
+[   85.675630]  proc_register+0x48/0x244
+[   85.675637]  _regmap_write+0x6c/0x174
+[   85.675645]  _regmap_update_bits+0xfc/0x110
+[   85.675652]  regmap_update_bits_base+0x70/0xa4
+[   85.675659]  clk_disable_regmap+0x44/0x5c
+[   85.675666]  clk_branch2_disable+0x24/0x4c
+[   85.675673]  clk_disable_unused_subtree+0x118/0x1d8
+[   85.675680]  clk_disable_unused+0x64/0xec
+[   85.675686]  do_one_initcall+0x50/0x280
+[   85.675692]  kernel_init_freeable+0x2a4/0x348
+[   85.675699]  kernel_init+0x30/0x13c
+[   85.675704]  ret_from_fork+0x10/0x20
+[   89.055678] rcu: INFO: rcu_sched detected expedited stalls on CPUs/tasks: { 4-... } 21143 jiffies s: 45 root: 0x10/.
+[   89.055709] rcu: blocking rcu_node structures (internal RCU debug):
+[   89.055715] Task dump for CPU 4:
+[   89.055720] task:swapper/0       state:R  running task     stack:    0 pid:    1 ppid:     0 flags:0x0000000a
+[   89.055730] Call trace:
+[   89.055733]  __switch_to+0x13c/0x194
+[   89.055742]  ida_alloc_range+0x37c/0x440
+[   89.055749]  proc_register+0x48/0x244
+[   89.055755]  _regmap_write+0x6c/0x174
+[   89.055763]  _regmap_update_bits+0xfc/0x110
+[   89.055770]  regmap_update_bits_base+0x70/0xa4
+[   89.055778]  clk_disable_regmap+0x44/0x5c
+[   89.055785]  clk_branch2_disable+0x24/0x4c
+[   89.055791]  clk_disable_unused_subtree+0x118/0x1d8
+[   89.055798]  clk_disable_unused+0x64/0xec
+[   89.055805]  do_one_initcall+0x50/0x280
+[   89.055811]  kernel_init_freeable+0x2a4/0x348
+[   89.055818]  kernel_init+0x30/0x13c
+[   89.055824]  ret_from_fork+0x10/0x20
+[   93.151593] BUG: workqueue lockup - pool cpus=4 node=0 flags=0x0 nice=0 stuck for 91s!
+[   93.151737] Showing busy workqueues and worker pools:
+[   93.151782] workqueue events: flags=0x0
+[   93.151838]   pwq 8: cpus=4 node=0 flags=0x0 nice=0 active=1/256 refcnt=2
+[   93.151852]     pending: pwq_unbound_release_workfn
+[   93.151893] workqueue events_unbound: flags=0x2
+[   93.151976]   pwq 16: cpus=0-7 flags=0x4 nice=0 active=3/512 refcnt=5
+[   93.151984]     in-flight: 152:async_run_entry_fn, 207:deferred_probe_work_func deferred_probe_work_func
+[   93.152011] workqueue rcu_gp: flags=0x8
+[   93.152105]   pwq 4: cpus=2 node=0 flags=0x0 nice=0 active=1/256 refcnt=2
+[   93.152113]     in-flight: 53:wait_rcu_exp_gp
+[   93.152144] workqueue pm: flags=0x4
+[   93.152227]   pwq 8: cpus=4 node=0 flags=0x0 nice=0 active=34/256 refcnt=35
+[   93.152236]     pending: genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn
+[   93.152430] pool 4: cpus=2 node=0 flags=0x0 nice=0 hung=87s workers=3 idle: 217 23
+[   93.152482] pool 16: cpus=0-7 flags=0x4 nice=0 hung=0s workers=10 idle: 76 219 75 211 216 81 221 7
+[  123.871589] BUG: workqueue lockup - pool cpus=4 node=0 flags=0x0 nice=0 stuck for 122s!
+[  123.871741] Showing busy workqueues and worker pools:
+[  123.871787] workqueue events: flags=0x0
+[  123.871844]   pwq 8: cpus=4 node=0 flags=0x0 nice=0 active=1/256 refcnt=2
+[  123.871855]     pending: pwq_unbound_release_workfn
+[  123.871894] workqueue events_unbound: flags=0x2
+[  123.871978]   pwq 16: cpus=0-7 flags=0x4 nice=0 active=3/512 refcnt=5
+[  123.871986]     in-flight: 152:async_run_entry_fn, 207:deferred_probe_work_func deferred_probe_work_func
+[  123.872013] workqueue rcu_gp: flags=0x8
+[  123.872104]   pwq 4: cpus=2 node=0 flags=0x0 nice=0 active=1/256 refcnt=2
+[  123.872113]     in-flight: 53:wait_rcu_exp_gp
+[  123.872139] workqueue pm: flags=0x4
+[  123.872225]   pwq 8: cpus=4 node=0 flags=0x0 nice=0 active=34/256 refcnt=35
+[  123.872234]     pending: genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn, genpd_power_off_work_fn
+[  123.872417] pool 4: cpus=2 node=0 flags=0x0 nice=0 hung=118s workers=3 idle: 217 23
+[  123.872467] pool 16: cpus=0-7 flags=0x4 nice=0 hung=0s workers=10 idle: 76 211 219 7 221 81 216 75
+[  148.695558] rcu: INFO: rcu_sched detected stalls on CPUs/tasks:
+[  148.695580] rcu: 	4-...0: (1 GPs behind) idle=99f/1/0x4000000000000000 softirq=160/163 fqs=14658 
+[  148.695591] 	(detected by 0, t=36762 jiffies, g=-1091, q=299)
+[  148.695598] Task dump for CPU 4:
+[  148.695602] task:swapper/0       state:R  running task     stack:    0 pid:    1 ppid:     0 flags:0x0000000a
+[  148.695612] Call trace:
+[  148.695615]  __switch_to+0x13c/0x194
+[  148.695623]  ida_alloc_range+0x37c/0x440
+[  148.695630]  proc_register+0x48/0x244
+[  148.695636]  _regmap_write+0x6c/0x174
+[  148.695643]  _regmap_update_bits+0xfc/0x110
+[  148.695651]  regmap_update_bits_base+0x70/0xa4
+[  148.695659]  clk_disable_regmap+0x44/0x5c
+[  148.695665]  clk_branch2_disable+0x24/0x4c
+[  148.695672]  clk_disable_unused_subtree+0x118/0x1d8
+[  148.695679]  clk_disable_unused+0x64/0xec
+[  148.695685]  do_one_initcall+0x50/0x280
+[  148.695691]  kernel_init_freeable+0x2a4/0x348
+[  148.695698]  kernel_init+0x30/0x13c
+[  148.695704]  ret_from_fork+0x10/0x20
+[  152.543680] rcu: INFO: rcu_sched detected expedited stalls on CPUs/tasks: { 4-... } 37015 jiffies s: 45 root: 0x10/.
+[  152.543711] rcu: blocking rcu_node structures (internal RCU debug):
+[  152.543717] Task dump for CPU 4:
+[  152.543721] task:swapper/0       state:R  running task     stack:    0 pid:    1 ppid:     0 flags:0x0000000a
+[  152.543731] Call trace:
+[  152.543735]  __switch_to+0x13c/0x194
+[  152.543743]  ida_alloc_range+0x37c/0x440
+[  152.543750]  proc_register+0x48/0x244
+[  152.543757]  _regmap_write+0x6c/0x174
+[  152.543764]  _regmap_update_bits+0xfc/0x110
+[  152.543772]  regmap_update_bits_base+0x70/0xa4
+[  152.543779]  clk_disable_regmap+0x44/0x5c
+[  152.543786]  clk_branch2_disable+0x24/0x4c
+[  152.543793]  clk_disable_unused_subtree+0x118/0x1d8
+[  152.543800]  clk_disable_unused+0x64/0xec
+[  152.543806]  do_one_initcall+0x50/0x280
+[  152.543812]  kernel_init_freeable+0x2a4/0x348
+[  152.543819]  kernel_init+0x30/0x13c
+[  152.543825]  ret_from_fork+0x10/0x20
